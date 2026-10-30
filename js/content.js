@@ -19,7 +19,7 @@
       id: 'ph2', title: '2. Research the market', sub: 'This week', items: [
         { id: 'r-trim', t: 'Pick the exact trim, colors and must-have options', why: 'The more specific your request, the easier quotes are to compare. Collect VINs of matching cars in stock.' },
         { id: 'r-test', t: 'Test-drive both the Telluride and the Palisade', why: 'Do it before the money talk so "which one do I like" is separate from "which one is the better deal".' },
-        { id: 'r-programs', t: 'Find the lender base money factor and residual for ZIP 33441', why: 'Post your ZIP, trim, term and miles in the Edmunds lease-deals forum thread for the model. Moderators usually reply with money factor, residual and lease cash. Enter them in Target > Edit program numbers.' },
+        { id: 'r-programs', t: 'Find the lender base money factor and residual for ZIP 33064', why: 'Post your ZIP, trim, term and miles in the Edmunds lease-deals forum thread for the model. Moderators usually reply with money factor, residual and lease cash. Enter them in Target > Edit program numbers.' },
         { id: 'r-incentives', t: 'List the incentives you qualify for', why: 'Loyalty, conquest, military, first responder, college grad, Costco Auto Program, employer or alumni perks. Tick them in Target so the targets include them.' },
         { id: 'r-ym', t: 'Ask about leftover 2026 models and any outgoing-year incentives', why: 'Outgoing model years can carry larger incentives, especially the Palisade. Never pay over MSRP on any of them.' },
         { id: 'r-reviews', t: 'Read recent dealer reviews for fee and add-on complaints', why: 'Look for "added fees at signing", "market adjustment" and "bait and switch".' },

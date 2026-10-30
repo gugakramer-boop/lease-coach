@@ -75,7 +75,7 @@
           h('h2', null, 'Your targets', h('span', { class: 'sub' }, r.term + ' mo \u00b7 ' + fmt.num(r.miles) + ' mi')),
           h('div', { class: 'tbl-wrap' }, tbl),
           h('p', { class: 'hint mt-s' }, 'Tax ' + st.settings.taxRate + '% (Broward). Monthly includes tax. True monthly = everything you pay over the lease divided by the months. Money factors assume top-tier credit (about 720+).'),
-          r.customRv || r.customMf ? h('div', { class: 'tag-row' }, ui.pill('Using your program numbers', 'good')) : h('div', { class: 'tag-row' }, ui.pill('Lender numbers reported Oct 2026: verify for 33441', 'info')));
+          r.customRv || r.customMf ? h('div', { class: 'tag-row' }, ui.pill('Using your program numbers', 'good')) : h('div', { class: 'tag-row' }, ui.pill('Lender numbers reported Oct 2026: verify for 33064', 'info')));
       }
 
       function planCard(tg, v, trim) {
@@ -191,7 +191,7 @@
           h('a', { class: 'btn ghost small', href: v.id === 'telluride' ? data.links.edmundsTelluride : data.links.edmundsPalisade, target: '_blank', rel: 'noopener noreferrer' }, ui.icon('ext', 16), 'Edmunds lease thread'),
           h('a', { class: 'btn ghost small', href: data.links.leasehackr, target: '_blank', rel: 'noopener noreferrer' }, ui.icon('ext', 16), 'Leasehackr'));
         return ui.accordion('Edit program numbers', [
-          ui.banner('info', 'info', [h('b', null, 'This is the most valuable step. '), 'Post ZIP 33441, your trim, term, miles and credit tier in the Edmunds lease thread for the model. Moderators reply with the money factor, residual and lease cash. Enter them here and every target sharpens.']),
+          ui.banner('info', 'info', [h('b', null, 'This is the most valuable step. '), 'Post ZIP 33064, your trim, term, miles and credit tier in the Edmunds lease thread for the model. Moderators reply with the money factor, residual and lease cash. Enter them here and every target sharpens.']),
           f, links,
           h('button', { class: 'btn danger small mt', type: 'button', onclick: () => { store.clearOverrides(trim.id); rebuildLower(); buildDynamic(); ui.toast('Reset to estimates'); } }, 'Reset this trim to estimates')
         ], { icon: 'edit', sub: store.hasOverrides(trim.id) ? 'You have custom numbers for this trim' : 'Estimates are in use' , open: false });
@@ -203,7 +203,7 @@
           h('p', { class: 'hint' }, m.note),
           h('div', { class: 'section-title', style: { margin: '6px 0 6px' } }, 'Lender buy rates (Edmunds forum, Oct 2026)'),
           m.lender.map((a) => h('div', { class: 'kv', style: { display: 'block' } }, h('b', null, a.car), h('div', { class: 'why' }, a.terms + ': MF ' + a.mf + ', residual ' + a.rv + ', lease cash ' + a.cash))),
-          h('p', { class: 'hint mt-s' }, 'Posted by forum moderators for other ZIP codes (a Tampa ZIP matched). Southeast rates should be close but confirm for 33441.'),
+          h('p', { class: 'hint mt-s' }, 'Posted by forum moderators for other ZIP codes (a Tampa ZIP matched). Southeast rates should be close but confirm for 33064.'),
           h('p', null, h('b', null, 'Telluride market: '), m.telluride),
           h('div', { class: 'section-title', style: { margin: '10px 0 6px' } }, 'Advertised South Florida deals (reported)'),
           m.ads.map((a) => h('div', { class: 'kv' }, h('span', null, a.car), h('span', null, a.pay + '/mo \u00b7 ' + a.das + ' due'))),

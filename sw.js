@@ -1,6 +1,6 @@
 /* Lease Coach service worker: offline-first with background refresh.
    Bump VERSION whenever the app files change so installed copies pick up the update. */
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.0.1';
 const CACHE = 'lease-coach-' + VERSION;
 const ASSETS = [
   './',

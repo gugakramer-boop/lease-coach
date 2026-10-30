@@ -25,7 +25,7 @@
     // Kia/Hyundai October programs were reported to end Nov 2, 2026 (new programs usually start the 1st-3rd).
     programEnds: '2026-11-02',
 
-    location: { label: 'Deerfield Beach, FL (Broward County)', zip: '33441' },
+    location: { label: 'Deerfield Beach, FL (Broward County)', zip: '33064' },
 
     // Florida: 6% state + 1% Broward surtax (DOR DR-15DSS, 2026).
     fl: {
@@ -84,7 +84,7 @@
         id: 'telluride', make: 'kia', name: 'Kia Telluride', year: 2027,
         blurb: 'All-new 2nd generation for 2027: 2.5L turbo gas, plus a first-ever hybrid.',
         tiers: TIERS_TELLURIDE,
-        defaultTrim: 'tel-xpro-sxp',
+        defaultTrim: 'tel-hxl-sxp',
         trims: [
           { id: 'tel-xpro-sxp', name: 'X-Pro SX-Prestige AWD', engine: '2.5T gas', baseMsrp: 56790, msrp: 58335, rv: 67, mf: 0.00241,
             note: 'Top gas trim. Off-road suspension, all-terrain tires, 9.1 in. ground clearance.' },
@@ -104,7 +104,7 @@
         id: 'palisade', make: 'hyundai', name: 'Hyundai Palisade', year: 2027,
         blurb: '2nd generation (redesigned for 2026): 3.5L V6 gas or 2.5T hybrid. Calligraphy is the top trim.',
         tiers: TIERS_PALISADE,
-        defaultTrim: 'pal-cal',
+        defaultTrim: 'pal-hcal',
         trims: [
           { id: 'pal-cal', name: 'Calligraphy AWD (V6)', engine: '3.5L V6 gas', baseMsrp: 56860, msrp: 58510, rv: 69, mf: 0.00237, leaseCash: 0,
             note: 'Top gas trim. Nappa leather, massaging driver seat.' },
@@ -122,7 +122,7 @@
     invoicePct: 0.955,
 
     market: {
-      note: 'Oct 2026 snapshot. Always verify against live numbers for ZIP 33441.',
+      note: 'Oct 2026 snapshot. Always verify against live numbers for ZIP 33064.',
       telluride: 'Verified-sales average around 1.4% below MSRP (61 sales, all trims). About $1,200 off sticker reported for the X-Pro SX-Prestige. Market adjustments are largely gone, and there is no 36-month lease cash.',
       // Lender buy rates posted by Edmunds forum moderators, Oct 9-29, 2026 (other ZIPs; Florida ZIP 33559 matched).
       lender: [

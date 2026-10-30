@@ -15,7 +15,7 @@
       settings: { theme: 'auto', taxRate: data.fl.taxRate },
       target: {
         vehicleId: 'telluride',
-        trims: { telluride: 'tel-xpro-sxp', palisade: 'pal-cal' },
+        trims: { telluride: 'tel-hxl-sxp', palisade: 'pal-hcal' },
         term: 36, miles: 10000, struct: 'up', cashDown: 0,
         incentives: {}
       },

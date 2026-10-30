@@ -7,7 +7,7 @@
   const store = LC.store;
   const h = ui.h;
 
-  const VERSION = '1.0.0';
+  const VERSION = '1.0.1';
 
   function open() {
     const st = store.state;
