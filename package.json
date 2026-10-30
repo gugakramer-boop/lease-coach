@@ -1,0 +1,11 @@
+{
+  "name": "lease-coach",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phone-friendly lease negotiation coach for a Kia Telluride or Hyundai Palisade in South Florida.",
+  "scripts": {
+    "start": "node scripts/serve.js 8765",
+    "test": "node --test test/",
+    "icons": "python scripts/make-icons.py"
+  }
+}

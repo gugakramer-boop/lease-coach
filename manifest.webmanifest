@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "Lease Coach",
+  "short_name": "Lease Coach",
+  "description": "Negotiate a Kia Telluride or Hyundai Palisade lease: target numbers, deal calculator, scripts and checklists.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b3c49",
+  "theme_color": "#0b3c49",
+  "lang": "en-US",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Check an offer", "short_name": "Check", "url": "./#/check/offer" },
+    { "name": "My targets", "short_name": "Targets", "url": "./#/target" },
+    { "name": "Scripts", "short_name": "Scripts", "url": "./#/playbook/scripts" }
+  ]
+}
