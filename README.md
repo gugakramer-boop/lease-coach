@@ -17,10 +17,25 @@ It runs entirely on the device: no accounts, no tracking, no network calls. Once
 
 ## Install on a phone
 
-Host the folder on any HTTPS static host (GitHub Pages, Netlify, Cloudflare Pages, ...), open the URL on the phone, then:
+Live app: **https://gugakramer-boop.github.io/lease-coach/** (GitHub Pages, HTTPS, works offline once opened).
 
-- **iPhone (Safari):** Share, then *Add to Home Screen*.
-- **Android (Chrome):** menu, then *Install app*.
+- **Android (Chrome):** open the link, tap the menu (three dots), then *Install app*. Or tap *Install now* on the Home tab.
+- **iPhone (Safari):** open the link, tap Share, then *Add to Home Screen*.
+
+Any HTTPS static host works if you ever move it (Netlify, Cloudflare Pages, ...): just serve this folder.
+
+## Publish an update
+
+```powershell
+# 1. Edit files (numbers live in js/data.js). 2. Bump VERSION in sw.js so phones refresh their offline copy.
+npm test
+git add -A
+git commit -m "Update lease numbers for <month>"
+git push          # GitHub Pages rebuilds in about a minute
+```
+
+This repo is pinned to the personal GitHub account through a repo-local credential helper (`git config --local --get-all credential.helper`),
+so `git push` works no matter which `gh` account is active.
 
 ## Where the numbers live
 
